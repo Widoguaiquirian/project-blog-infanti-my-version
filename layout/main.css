@@ -1,0 +1,412 @@
+/*CSS Stylesheet T.O.C. - Table of contents
+Created 01 June 2021
+Last update July 2021: 
+
+
+Compatible Browser:
+Firefox V.89.0.2 (64-bit)
+Chrome V.91.0.4472.124 (Build oficial) (64-bits)
+Edge V.91.0.864.67 (Compilación oficial) (64-bits)
+
+
+=RESET % CONDITIONAL COMMENT
+=GENERAL
+=LAYOUT:
+=PAGES
+
+      =index
+
+/*       RESET      */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+article,
+aside,
+canvas,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+/*///////////////////////GENERAL///////////////////////////*/
+
+html {
+  background-color: white;
+  font-size: 62.5%;
+}
+
+body {
+  color: black;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  height: auto;
+  line-height: 2;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+figcaption,
+a,
+dl,
+.lead-in,
+label,
+input {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+a {
+  border-bottom: 2px solid #57C8E7;
+  color: black;
+  text-decoration: none;
+}
+
+a:focus {
+  background-color: #57C8E7;
+  border: 2px solid black;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+div.clear {
+  clear: both;
+}
+
+.logo-container {
+  height: 90px;
+  width: 100%;
+}
+
+.logo {
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+}
+
+nav {
+  background-color: #d8d8d7;
+  height: 50px;
+  margin: 0 auto 60px auto;
+  width: 100vw;
+}
+
+
+
+
+/*///////////////////////MAIN///////////////////////////*/
+
+main,
+.main-section {
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  width: 990px;
+}
+
+article {
+  height: auto;
+  position: relative;
+  width: 70%;
+}
+
+/*//////////////////////HEADER///////////////////////////*/
+
+header {
+  height: auto;
+  margin: 0 auto;
+  width: 650px;
+}
+
+.meta-info {
+  color: #7A756C;
+  display: flex;
+  flex-grow: 2;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.meta-info p {
+  margin-right: 30px;
+}
+
+/*//////////////////////BANNER///////////////////////////*/
+
+figure {
+  display: block;
+  height: auto;
+  margin: 40px auto;
+  width: 650px;
+}
+
+figure img {
+  object-fit: contain;
+  width: 650px;
+}
+
+figcaption {
+  color: #7A756C;
+  font-size: 1.5rem;
+}
+
+/*//////////////////////MAIN TEXT///////////////////////////*/
+
+article p {
+  margin: 0 auto;
+  text-align: left;
+  width: 650px;
+}
+
+.lead-in {
+  color: #42798A;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.last-word {
+  border-bottom: 2px solid #57C8E7;
+  padding-bottom: 80px;
+}
+
+/*//////////////////////ASIDE///////////////////////////*/
+
+aside {
+  padding-left: 40px;
+}
+
+.word-search {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 150px;
+  margin-top: 220px;
+  width: 100%;
+}
+
+.titles {
+  color: #42798A;
+}
+
+.word-search label {
+  color: #42798A;
+  display: block;
+  width: 100%;
+}
+
+.word-search input {
+  border: 1px solid rgb(206, 206, 206);
+  height: 50px;
+  margin-top: 15px;
+  outline: none;
+  width: 95%;
+}
+
+.word-search input:focus {
+  border: 2px solid #57C8E7;
+  outline: none;
+}
+
+.social-network {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 150px;
+  text-align: center;
+  width: 100%;
+}
+
+.social-network a {
+  border-bottom: none;
+  display: inline-block;
+  height: auto;
+  text-decoration: none;
+  width: auto;
+}
+
+.social-network a:focus {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.sprite1 {
+  background: url(sprite4.png) 0 0;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.sprite1:hover {
+  background: url(sprite4.png) 0 -31px;
+  cursor: pointer;
+}
+
+.sprite2 {
+  background: url(sprite4.png) -29px 0;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.sprite2:hover {
+  background: url(sprite4.png) -29px -31px;
+  cursor: pointer;
+}
+
+.sprite3 {
+  background: url(sprite4.png) -61px 0;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.sprite3:hover {
+  background: url(sprite4.png) -61px -31px;
+  cursor: pointer;
+}
+
+.sprite {
+  margin: 10px 15px 0 15px;
+}
+
+/*//////////////////////GO UP///////////////////////////*/
+
+.go-up {
+  bottom: 30px;
+  left: 600px;
+  position: absolute;
+  text-align: center;
+  width: 70px;
+}
+
+.go-up a {
+  border: none;
+  display: block;
+}
+
+.go-up a:focus {
+  background-color: transparent;
+}
+
+.go-up img {
+  position: relative;
+  width: 35px;
+}
